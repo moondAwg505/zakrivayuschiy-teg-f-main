@@ -1,0 +1,33 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-fonts: "Inter-Variable";
+  --second-fonts: "PressStart2P";
+  --fotn-main-weight-title: 700;
+  --font-main-weight-text-card: 400;
+  --main-color: #000;
+  --card-width: 100;
+  --bg-color-card: #fff;
+  --card-font-size: 18px;
+  --text-color: #fff;
+  --bg-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --hearh-hover-color: #000;
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --text-color-animation: #fff;
+  --background-color-animation: #000;
+}
