@@ -50,7 +50,7 @@
 
 .header_title {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  font-variation-settings: 'wght' 700; 
+  font-variation-settings: "wght" 700;
   text-transform: uppercase;
   line-height: 100%;
   padding-block-end: 20px;
@@ -82,7 +82,7 @@
 
 .image-label {
   position: absolute;
-  font-family: var(--second-fonts);
+  font-family: var(--second-fonts), sans-serif;
   line-height: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -241,7 +241,7 @@
 
 .text_card {
   font-size: var(--card-font-size);
-  font-variation-settings: 'wght' 400;
+  font-variation-settings: "wght" 400;
   line-height: 21px;
   min-width: min-content;
   margin-block-end: 27px;
