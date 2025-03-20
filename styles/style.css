@@ -11,14 +11,14 @@
 */
 @supports (font-variation-settings: normal) {
   body {
-    font-family: var(--main-fonts), sans-serif;
+    font-family: 'Inter-Variable', sans-serif;
   }
 }
 
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-fonts), sans-serif;
+  font-family: 'Inter-Variable', sans-serif;
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
