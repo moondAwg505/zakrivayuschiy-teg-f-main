@@ -19,7 +19,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-fonts), sans-serif;
-  font-variation-settings: "wght" var(--font-main-weight-text-card, 400);
+  font-variation-settings: "wght" var(--font-main-weight-text-card, 400) 'slnt' 0;
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
