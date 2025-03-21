@@ -9,17 +9,12 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: var(--main-fonts), sans-serif;
-  }
-}
 
-body {
+.page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-fonts);
-  font-variation-settings: 'wght' 700; 
+  font-family: var(--main-fonts), sans-serif;
+  font-variation-settings: "wght" 700;
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +26,7 @@ body {
 }
 
 .header {
-  font-family: var(--second-fonts, 'PressStart2P'), sans-serif;
+  font-family: var(--second-fonts, "PressStart2P"), sans-serif;
   display: flex;
   align-items: center;
   border: 2px solid var(--main-color, #000);
@@ -47,7 +42,7 @@ body {
   background-color: #fff;
   width: clamp(375px, calc(100vw), 696px);
   height: clamp(327px, calc(100vw), 364px);
-  font-variation-settings: 'wght' var(--font-main-weight-text-card);
+  font-variation-settings: "wght" var(--font-main-weight-text-card);
 }
 
 .header_title {
@@ -139,8 +134,8 @@ body {
 }
 
 .title_card {
-  font-variation-settings: 'wght' var(--fotn-main-weight-title);
-  font-family: var(--main-fonts, 'Inter-Variable'), sans-serif;
+  font-variation-settings: "wght" var(--fotn-main-weight-title);
+  font-family: var(--main-fonts, "Inter-Variable"), sans-serif;
   font-size: var(--card-font-size);
   margin: 4px 12px 6px 12px;
 }
@@ -148,7 +143,7 @@ body {
 .text_card {
   font-size: var(--card-font-size);
   font-family: var(--main-fonts), sans-serif;
-  font-variation-settings: 'wght' var(--font-main-weight-text-card);
+  font-variation-settings: "wght" var(--font-main-weight-text-card);
   line-height: 21px;
   min-width: min-content;
   margin-block-end: 27px;
