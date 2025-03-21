@@ -19,7 +19,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-fonts);
-  font-variation-settings: 'wght' var(--font-main-weight-text-card);
+  font-variation-settings: 'wght' calc(var(--font-main-weight-text-card));
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
