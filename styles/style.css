@@ -18,8 +18,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-fonts), sans-serif;
-  font-variation-settings: 'wght' var(--fotn-main-weight-title);
+  font-family: var(--main-fonts);
+  font-variation-settings: 'wght' var(--font-main-weight-text-card);
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -47,12 +47,12 @@
   background-color: #fff;
   width: clamp(375px, calc(100vw), 696px);
   height: clamp(327px, calc(100vw), 364px);
+  font-variation-settings: 'wght' var(--font-main-weight-text-card);
 }
 
 .header_title {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  font-family: var(--main-font);
-  font-variation-settings: 'wght' var(--fotn-main-weight-title);
+  font-family: var(--second-fonts);
   text-transform: uppercase;
   line-height: 100%;
   padding-block-end: 20px;
@@ -60,6 +60,7 @@
 
 .header_text {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  font-family: var(--second-fonts);
   line-height: 100%;
   font-weight: 400;
   text-transform: uppercase;
@@ -237,15 +238,15 @@
 }
 
 .title_card {
-  font-weight: var(--fotn-main-weight-title);
-  font-family: var(--main-font);
+  font-variation-settings: 'wght' var(--fotn-main-weight-title);
+  font-family: var(--main-fonts);
   font-size: var(--card-font-size);
   margin: 4px 12px 6px 12px;
 }
 
 .text_card {
   font-size: var(--card-font-size);
-  font-family: var(--main-font);
+  font-family: var(--main-fonts);
   font-variation-settings: 'wght' var(--font-main-weight-text-card);
   line-height: 21px;
   min-width: min-content;
