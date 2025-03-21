@@ -1,1 +1,1 @@
-https://github.com/moondAwg505/zakrivayuschiy-teg-f-main
+https://moondawg505.github.io/zakrivayuschiy-teg-f-main/
