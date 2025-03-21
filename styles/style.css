@@ -10,8 +10,8 @@
 
 */
 @supports (font-variation-settings: normal) {
-  .page {
-    font-family: 'Inter-Variable', sans-serif;
+  body {
+    font-family: var(--main-fonts), sans-serif;
   }
 }
 
@@ -19,7 +19,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-fonts), sans-serif;
-  font-variation-settings: 'wght' var(--font-main-weight-text-card), 'wdth' 0, 'opsz' 0;
+  font-variation-settings: 'wght' var(--fotn-main-weight-title);
   background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
