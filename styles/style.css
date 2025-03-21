@@ -11,7 +11,7 @@
 */
 @supports (font-variation-settings: normal) {
   body {
-    font-family: var(--main-fonts), sans-serif;
+    font-family: var(--main-fonts);
   }
 }
 
