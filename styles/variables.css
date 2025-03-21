@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-fonts: 'Inter-Variable';
+  --main-fonts: 'Inter';
   --second-fonts: 'PressStart2P';
   --fotn-main-weight-title: 700;
   --font-main-weight-text-card: 400;
